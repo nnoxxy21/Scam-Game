@@ -1,0 +1,105 @@
+h1 {
+    color: #ea0505;
+    text-align: center;
+    font-size: 50px;
+}
+
+#points {
+    color: #42fd08;
+    text-align: center;
+    font-weight: bold;
+    font-size: 80px;
+    -webkit-text-stroke: 1px #2a9b04;
+}
+
+.cash-btn {
+    display: block;
+    margin: 5px auto;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    background-color: #49f31c;
+    padding: 10px;
+    width: 260px;
+    border-bottom: 5px solid #165644;
+    border-radius: 10px;
+}
+
+.cash-btn:hover {
+    background-color: #48dc17;
+    color: white;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.96);
+    cursor: pointer;
+}
+
+.redeem-btn {
+    display: block;
+    margin: auto;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    background-color: #11f5cd;
+    padding: 10px;
+    width: 260px;
+    border-bottom: 5px solid #165644;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.redeem-btn:hover {
+    background-color: #13e5be;
+    color: white;
+    cursor: pointer;
+}
+
+.topic {
+    color: #35a9f1;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#redeems {
+    color: #02ff26;
+    -webkit-text-stroke: 0.4px #176c01;
+}
+
+#history {
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #66b9a1;
+    padding: 3px;
+    background-color: #edfcc3;
+}
+
+.withdraw-btn {
+    display: block;
+    margin: auto;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    background-color: #f1c207;
+    padding: 5px;
+    width: 260px;
+    border-bottom: 5px solid #524203;
+    border-radius: 10px;
+}
+
+.withdraw-btn:hover {
+    background-color: #48dc17;
+    color: white;
+    cursor: pointer;
+    -webkit-text-stroke: 0.4px #0a100e;
+    border-bottom: 5px solid #125703;
+}
+
+#error {
+    display: block;
+    margin: 5px auto 50px auto;
+    text-align: center;
+    color: red;
+}
